@@ -1,0 +1,12 @@
+{
+  "name": "Paywall Remover Redirector",
+  "author": "Burak ŞEN",
+  "version": "1.0",
+  "description": "This extension is used to remove paywall by redirecting the URL to the 12ft.io. To use the extension you can pin it for easy access. By clicking the icon of the extension, you can remove the paywall.",
+  "manifest_version": 3,
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {},
+  "permissions": ["tabs"]
+}
